@@ -1,7 +1,4 @@
-# 📊 Samba Prometheus Exporter (Enterprise Edition)
-
-[![Go Report Card](https://goreportcard.com/badge/github.com/ваше_имя/samba_exporter)](https://goreportcard.com/report/github.com/ваше_имя/samba_exporter)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# 📊 Samba Prometheus Exporter
 
 Мощный и эффективный экспортер для Prometheus, предназначенный для глубокого мониторинга состояния файлового сервера Samba (SMB). В отличие от стандартных решений, данный экспортер предоставляет детальную аналитику по активным сессиям, блокировкам файлов и физическому состоянию дисковых ресурсов в реальном времени.
 
@@ -40,7 +37,7 @@
 ### Сборка из исходного кода
 ```bash
 # Клонирование репозитория
-git clone [https://github.com/ваше_имя/samba_exporter.git](https://github.com/ваше_имя/samba_exporter.git)
+git clone [https://github.com/Odich228/samba_exporter.git](https://github.com/Odich228/samba_exporter.git)
 cd samba_exporter
 
 # Загрузка зависимостей и компиляция
