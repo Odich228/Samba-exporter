@@ -30,16 +30,4 @@
 *   **Go**: 1.21+ (для самостоятельной сборки).
 *   **Права**: Экспортер должен запускаться с правами, достаточными для выполнения `smbstatus` (обычно `root`).
 
----
 
-## 📦 Установка и сборка
-
-### Сборка из исходного кода
-```bash
-# Клонирование репозитория
-git clone [https://github.com/Odich228/samba_exporter.git](https://github.com/Odich228/samba_exporter.git)
-cd samba_exporter
-
-# Загрузка зависимостей и компиляция
-go mod tidy
-go build -o samba_exporter main.go
