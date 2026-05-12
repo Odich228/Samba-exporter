@@ -31,3 +31,4 @@
 *   **Права**: Экспортер должен запускаться с правами, достаточными для выполнения `smbstatus` (обычно `root`).
 
 
+Инструкцию по конфигурированию читайте в [Wiki: Configuration](https://github.com/Odich228/Samba-exporter/wiki/Configuration).
