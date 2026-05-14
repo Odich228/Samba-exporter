@@ -1,7 +1,3 @@
-# ==========================================================
-# Конфигурация Samba Prometheus Exporter (v2.1 - AD Edition)
-# ==========================================================
-
 server:
   listen_address: "0.0.0.0:9102"
   read_timeout: "5s"
@@ -12,15 +8,15 @@ samba:
   smbstatus_path: "/usr/bin/smbstatus"
 
   intervals:
-    size_scan: "1m"      # Замер объема шар
-    ad_update: "30m"     # Обновление списков пользователей и групп AD
+    size_scan: "5m"
+    ad_update: "30m"
 
   collectors:
-    enable_du: true       # Объем папок
-    enable_sessions: true # Активные сессии
-    enable_locks: true    # Файловые блокировки
-    enable_perf: true     # Сетевой трафик (МБ/с)
-    enable_ad: true       # Пользователи, группы и GPO Active Directory
+    enable_du: true
+    enable_sessions: true
+    enable_locks: true
+    enable_perf: true
+    enable_ad: true
 
   user_filter:
     exclude_system: true
