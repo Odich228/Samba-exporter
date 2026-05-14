@@ -1,4 +1,4 @@
-module samba_exporter
+module samba-exporter
 
 go 1.25.9
 
